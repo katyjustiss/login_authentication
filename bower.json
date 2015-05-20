@@ -15,8 +15,7 @@
     "tests"
   ],
   "dependencies": {
+    "firebase": "~2.2.5",
     "jQuery": "~2.1.4",
-    "bootstrap": "~3.3.4",
-    "firebase": "~2.2.5"
   }
 }
