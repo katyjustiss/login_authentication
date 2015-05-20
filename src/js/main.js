@@ -61,6 +61,8 @@ $('.register form').submit(function () {
       if (err) {
         console.log(err.toString());
       } else {
+        email.val('');
+        password.val('');
         toggleLoginRegister();
       }
     });
