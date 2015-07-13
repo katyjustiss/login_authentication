@@ -62,7 +62,7 @@ $('.register form').submit(function () {
         console.log(err.toString());
       } else {
         email.val('');
-        password.val('');
+
         toggleLoginRegister();
       }
     });
